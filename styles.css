@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(113, 139, 139);
+}
+
+.white{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+}
+.white:hover{
+    background-image: url(./queeen-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.black{
+    background-color: black;
+    width: 60px;
+    height: 60px;
+}
+.black:hover{
+    background-image: url(./12-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Chessboard{
+    background-color: white;
+    width: 580px;
+    border-color: black;
+    border: 3px solid black;
+    position: fixed;
+    margin-left: 60px;
+}
+.table-chess{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+.design{
+    margin-left: 800px;
+    margin-top: 90px;
+    position: fixed;
+}
+
+.design h1{
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: white;
+    font-weight: 70px;
+    font-size: 60px;
+}
+.design .des{
+    background-color: rgba(22, 18, 18, 0.574);
+    font-family: cursive;
+    line-height: 1.5;
+}
+.design .use{
+    font-family: monospace;
+}
